@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Full Page Intro with a fixed, transparent Navbar */
+.intro-2 {
+    /* background: url("https://mdbootstrap.com/img/Photos/Others/img (40).jpg")no-repeat center center; */
+    /* background-size: cover; */
+}
+.navbar {
+    background-color: transparent;
+}
+.top-nav-collapse {
+    background-color: #4285F4;
+}
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #4285F4;
+    }
+}
+html,
+body,
+header,
+.view {
+    height: 92%;
+}
+@media only screen and (max-width:888px){
+    .HeaderClass{    margin-bottom: -200px;    }
+}
+
+@media only screen and (max-width:768px){
+       
+    .view{ height: 80%;
+    }
+    .HeaderClass{    margin-bottom: -200px;    }
+}
+
+/* ======================================================================= */
+
+.view,body,html{height:100%}
+.navbar{background-color:rgba(0,0,0,.2)}
+.page-footer,.top-nav-collapse{background-color:#1C2331}
+@media only screen and (max-width:768px){.navbar{background-color:#1C2331}}
+#time-counter{font-size:5rem}
+
+/* =================== Class Navicator List ============================================== */
+.ClassNavLi{
+  font-family: 'Cairo', sans-serif;
+ padding: 0px 27px;
+}
+/* ============================ Footer ======================================= */
+
+#IdFooter{
+    visibility: visible;animation-name: fadeIn;
+    clip-path: polygon(19% 0, 100% 22%, 100% 100%, 0 100%, 0 20%);
+    height: 300px;
+}
+#IdFooterContactus{
+    padding-top: 50px;
+    font-family: 'El Messiri', sans-serif; 
+    font-size: 35px;
+}
+#IdFooterCallUs{
+    font-size: 20px;
+    font-family: 'El Messiri', sans-serif; 
+    background-color: aliceblue!important;
+    color: #4285F4!important;
+    border-radius: 14px;
+}
+#IdFooterCallUs:hover {
+     background-color: rgb(3, 49, 88)!important;
+     color: #f8fafc!important;
+   } 
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@ Footer Media @@@@@@@@@@@@@@@@@@@@@@@@ */
+@media only screen and (max-width:640px) {
+    #IdFooter{  height: 450px;     }
+    #IdFooterContactus{
+        padding-top: 70px;
+        font-size: 25px;}}
+/* ============================ Footer ======================================= */
+

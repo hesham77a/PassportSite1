@@ -1,0 +1,400 @@
+/* ===================== Div View   ======================== */
+#IDTableBox{
+
+    background-color: yellow!important;
+     border-radius: 20px!important; 
+     max-width:500px!important; 
+     padding-right:50px!important;
+}
+#IdViewH1{
+    font-family: 'El Messiri', sans-serif; 
+    font-size: 55px;
+    float: none!important;
+    color: rgb(255, 255, 255);
+}
+#IdViewH4{
+    font-family: 'El Messiri', sans-serif;
+     font-weight: bolder; 
+     font-size: x-large;
+     color: rgb(255, 255, 255);
+}
+#IdViewH5{
+    font-family: 'El Messiri', sans-serif;
+     font-weight: bolder; 
+     font-size: x-large;
+     color: rgb(234, 250, 6);
+
+}
+#IdViewH42{
+    font-family: 'El Messiri', sans-serif; 
+    font-size: medium;
+    color: rgb(255, 255, 255);
+}
+#IdViewH43{
+    font-family: 'El Messiri', sans-serif; 
+    font-size: medium;
+    color: rgb(234, 250, 6);
+}
+
+#IdViewH44{
+    font-family: 'El Messiri', sans-serif; 
+    font-size: medium;
+}
+#IdViewA11{
+    
+    color: white!important;
+    forced-color-adjust: white!important;
+}
+
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@ Div View Media @@@@@@@@@@@@@@@@@@@@@@@@ */
+@media only screen and (max-width:888px) {
+    #IdViewH1{font-size: 35px; padding-top: -60px!important; }  
+    #IdViewH4{  font-size: large;  }
+    #IdViewH5{  font-size: large; }
+    #IdViewA11{
+        margin-top:10px!important;
+       }
+       #IdVedioMain{
+        max-height:80%;
+       }
+
+}
+@media only screen and (max-width:515px) {
+    #IdViewH1{font-size: 35px;   }  
+    #IdViewH4{  font-size: medium;  }
+    #IdViewH5{  font-size: medium; }
+    #IdViewA11{
+        margin-top:-15px!important;margin-bottom: 25px!important;
+       }
+
+}
+
+@media only screen and (max-width:490px) {
+   
+    #IdViewH1{font-size: 30px;       }  
+    #IdViewH4{  font-size:  medium;  }
+    #IdViewH5{  font-size: small; }
+     #IdDivMaincontents{   padding-top: -150px!important;
+
+       }
+       #IdViewA11{
+        margin-top:0px!important;
+       }
+}
+@media only screen and (max-width:426px) { 
+    #IdViewH1{font-size: 20px;       }  
+       #IdViewA11{         margin-top:-10px!important;margin-bottom: 25px!important;
+       }
+}
+
+
+/* 111111111111111111111111111111111111111111111111111111111111111111111111111111 */
+
+/* ==========================   section 1 ========================================= */
+#section1{
+    height: 450px;
+    padding-top: 50px;margin-top:1px;
+    background-color: rgb(241, 239, 239);
+ }
+/* ==========================   Section1 Div ========================================= */
+#IdSection1Div{
+    width: 70%; 
+    float: left;
+}
+/* =================== Image why ============================================== */
+#IdImageWhy{
+width: 220px;
+height: 380px;
+}
+/* ===================  Section1 Div1 H1 ============================================== */
+#IdSection1Div1H1{
+    font-family: 'El Messiri', sans-serif; 
+    font-size: 46px ; 
+    color: black; 
+    text-align: end;
+}
+/* ===================  Section1 Div1 H4 ============================================== */
+#IdSection1Div1H4 ,  #IdSection1Div1H42{
+    font-family: 'El Messiri', sans-serif; 
+    font-weight: bolder;
+     font-size: medium; 
+     color: black; 
+     direction: rtl; 
+     text-align: start;
+     line-height: normal;
+     max-width: 700px;
+}
+#IdViewA11 {font-size: large; width:270px }
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@ Section1 Media @@@@@@@@@@@@@@@@@@@@@@@@ */
+@media only screen and (max-width:888px) {
+    #Section1{  margin-top: -200px;}
+   
+
+    #IdSection1Div1H1{ font-size: large ;  }
+    #IdSection1Div1H4 , #IdSection1Div1H42{ font-size: small;}}
+@media only screen and (max-width:553px) {
+    #section1{height: 300px;}
+    #IdImageWhy{
+        width: 150px;
+        height: 220px;}
+    #IdSection1Div1H42{visibility: hidden;}
+    #IdSection1Div{height: 200px;}}
+
+ @media only screen and (max-width:490px) {
+    #section1{height: 240px; padding-top:50px!important;}
+
+        #IdSection1Div1H1{font-size: smaller!important ; padding-top:0px!important; padding-bottom:0px!important;}
+        #IdSection1Div1H4{font-size: x-small; padding-top: 0px!important;}
+        #IdImageWhy{
+            width: 100px;
+            height: 130px;
+            }
+    }
+ /* @@@@@@@@@@@@@@@@@@@@@@@@@@@ Section1 Media @@@@@@@@@@@@@@@@@@@@@@@@ */
+
+/* 111111111111111111111111111111111111 END 111111111111111111111111111111111111111111111111? */
+/* ==========================   section 2 ========================================= */
+
+#section2{
+    height: 550px;
+    width: 100%;
+    padding-top: 50px; 
+ }
+#IdSection2Div1{  text-align: center; }
+#IdSection2Span{
+    font-size: xx-large;
+    font-family: 'El Messiri', sans-serif; 
+    }
+.ClassSection2DivCards{ margin: 20px 10px;  }
+.ClassSection2DivCardsText{
+    text-align: right; 
+    font-family: 'Almarai', sans-serif; font-weight: bold;
+   }
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@ Section2 Media @@@@@@@@@@@@@@@@@@@@@@@@ */
+@media only screen and (max-width:888px) {
+    #section2{ height: 400px;  }
+    #IdSection2Span{font-size: large;}
+    .ClassSection2DivCards{margin: 10px 2px; }
+    .ClassSection2DivCardsText{font-size: small!important;  }}
+@media only screen and (max-width:690px) {
+    #section2{ height: 360px;}
+    .ClassSection2DivCardsText{font-size: x-small!important;}}
+@media only screen and (max-width:575px) {
+    #section2{
+        height: 1400px;
+        padding-top: 30px;
+        padding-bottom: 0px;
+      }
+    #IdSection2Div1{ text-align: center!important; }
+    #ClassSection2DivCards{
+        max-width: 100px!important;
+        text-align: center!important;}
+        #IdViewA11{font-size: small!important; width:200px!important; }
+        #IdSection2Span{font-size: x-small;}
+    }
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@ Section2 Media @@@@@@@@@@@@@@@@@@@@@@@@ */
+/* 2222222222222222222222222222222222 END 222222222222222222222222222222222222222222222222222 */
+
+/* ==========================   section 3 ========================================= */
+#Section3{
+    height: 520px!important;
+    padding-top: 30px;
+    background-image: url("../image/Section3-back1.jpg")  ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    clip-path: polygon(30% 0%, 52% 3%, 100% 8%, 100% 100%, 70% 100%, 30% 100%, 0 100%, 0 9%)!important;
+}
+/* =========   Section3 Div ===== */
+#IdSection3Div{
+    width: 45%; 
+    float: right;
+    margin-right: 240px;
+    padding-top: 20px;
+  }
+#IdSection3Div1H1{
+    font-family: 'El Messiri', sans-serif; 
+    font-size: 46px ; 
+    color: black; 
+    text-align: end;
+    color: white;
+}
+#IdSection3Div1H4 ,  #IdSection3Div2H42{
+    font-family: 'El Messiri', sans-serif; 
+    font-weight: bolder;
+     font-size: large; 
+     color: white; 
+     direction: rtl; 
+     text-align: start;
+     line-height: normal;
+     max-width: 800px;
+}
+/* =========image==== */
+#IdSection3DivImage{
+    width: 40%; 
+    float: left;
+    text-align: right;
+}
+#IdSection3Image{
+    width: 620px;
+    height: 560px;
+}
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@ Section3 Media @@@@@@@@@@@@@@@@@@@@@@@@ */
+@media only screen and (max-width:1620px) {
+    #IdSection3Div{
+        width: 55%; 
+        margin-right: 40px;}
+    #IdSection3Div1H1{ font-size: 30px ; }
+    #IdSection3Div1H4 ,  #IdSection3Div2H42{
+     font-size: medium; 
+     max-width: 700px;}
+    #IdSection3Image{
+    width: 520px;
+    height: 460px;}}
+@media only screen and (max-width:1016px) {
+    #Section3{ height: 400px!important;}
+    #IdSection3Div{ margin-right: 10px; }
+    #IdSection3Div1H1{ font-size: 20px ;   }
+    #IdSection3Div1H4 ,  #IdSection3Div2H42{
+            font-size: small; 
+            max-width: 600px; }
+    #IdSection3Image{
+            width: 420px;
+            height: 360px; }  }
+@media only screen and (max-width:817px) {
+    #Section3{ height: 360px!important;    }
+    #IdSection3Div1H1{ font-size: 16px ;  }
+    #IdSection3Div{
+        width: 60%; 
+        margin-right: 0px;
+        padding-top: 25px;     }
+    #IdSection3Image{
+        width: 300px;
+        height: 280px; }
+    #IdSection3Div1H4 ,  #IdSection3Div2H42{font-size: small; }}
+@media only screen and (max-width:575px) {    
+    #Section3{height: 480px!important;}
+    #IdSection3Div{width: 100%;   }
+    #IdSection3Div1H1{
+            padding-top: 30px;
+            font-weight: bolder;
+            font-size: 20px;
+            text-align: center;}
+    #IdSection3Div2H42{ display: none;}
+    #IdSection3DivImage{
+         width: 100%!important;
+         float: none;
+         text-align: center;}
+    #IdSection3Image{
+         width: 240px;
+         height: 240px;    }    }
+ /* @@@@@@@@@@@@@@@@@@@@@@@@@@@ Section3 Media @@@@@@@@@@@@@@@@@@@@@@@@ */
+
+/* 33333333333333333333333333333333333333333 END 333333333333333333333333333333333 */
+/* ==========================   section 4 ========================================= */
+#Section4{
+    background-color: #02070c;
+    height: 520px;
+    padding-top: 30px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 86%, 86% 100%, 44% 93%, 0 89%);
+}
+#IdSection4DivImage{
+    width: 30%; 
+    float: right;
+   }
+#IdSection4Image{
+    height: 370px;
+    width: 420px;
+    border-radius: 24px;
+}
+#IdSection4Div{
+    width: 70%; 
+    float: left;
+   }
+#IdSection4Div1H1{
+    font-family: 'El Messiri', sans-serif; 
+    font-size: 46px ; 
+    color: black; 
+    text-align: end;
+    color: white;
+}
+#IdSection4Div1H4 ,  #IdSection4Div2H42{
+    font-family: 'El Messiri', sans-serif; 
+    font-weight: bolder;
+     font-size: large; 
+     color: white; 
+     direction: rtl; 
+     text-align: start;
+     line-height: normal;
+     max-width: 800px;
+}
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@ Section4 Media @@@@@@@@@@@@@@@@@@@@@@@@ */
+@media only screen and (max-width:1490px) {
+    #IdSection4Image{
+        height: 300px;
+        width: 340px;}
+    #IdSection4Div1H1{ font-size: 30px ; }
+    #IdSection4Div1H4 ,  #IdSection4Div2H42{font-size: medium;   }}
+@media only screen and (max-width:1190px) {
+    #Section4{ height:320px ;}
+    #IdSection4Image{
+        height: 230px;
+        width: 260px;    }
+    #IdSection4Div1H1{font-size: 20px ;    }
+    #IdSection4Div1H4 ,  #IdSection4Div2H42{font-size: small;}}
+@media only screen and (max-width:900px) {
+    #Section4{ height:350px ;}
+    #IdSection4DivImage{
+        width: 40%!important; 
+        margin-right: 0px!important;
+        text-align: center;}
+    #IdSection4Image{
+        height: 200px;
+        width: 180px;}
+    #IdSection4Div{ width:60%;}
+    #IdSection4Div1H1{
+        font-size: 16px ;
+        text-align: center; }
+    #IdSection4Div1H4 ,  #IdSection4Div2H42{ font-size: x-small;}
+    #IdSection4Content{  min-width: 230px!important;}}
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@ Section4 Media @@@@@@@@@@@@@@@@@@@@@@@@ */
+/* 444444444444444444444444444444 END 4 444444444444444444444444444444444 */
+
+/* ==========================   section 5 ========================================= */
+
+#section5{
+    height: 620px;
+    width: 100%;
+    padding-top: 50px; 
+ }
+#IdSection5Div1{  text-align: center; }
+#IdSection5Span{
+    font-size: xx-large;
+    font-family: 'El Messiri', sans-serif; 
+  
+    }
+.ClassSection5DivCards{ margin: 20px 10px; }
+.ClassSection5DivCardsText{
+        text-align: right; 
+    font-family: 'Almarai', sans-serif;
+     font-weight: bold;
+   }
+.ClassSection5DivCard{
+    /* background-color: #1C2331;
+    color: aliceblue; */
+    min-height: 350px!important;
+}
+.ClassSection5DivCardText{
+    font-size: medium;
+    font-weight: bolder;
+    font-family: 'El Messiri', sans-serif; 
+    text-align: right;
+    direction: rtl;
+}
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@ Section5 Media  @@@@@@@@@@@@@@@@@@@@@@@@ */
+@media only screen and (max-width:550px) {
+    #IdSection5Span{     font-size: large;}
+   
+
+}
+/* 55555555555555555555555555555 END 5 555555555555555555555555555555555555555555555 */

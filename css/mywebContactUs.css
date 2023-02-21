@@ -1,0 +1,85 @@
+
+/* ===================================== Section 1 ======================================= */
+#IdHeader{
+    height: 75px;
+
+}
+.map-container{
+    overflow:hidden;
+    padding-bottom:20%;
+    position:inherit;
+    height:0px;
+    }
+    .map-container iframe{
+    left:0;
+    top:0;
+    height:50%;
+    width:100%;
+    position:absolute;
+    }
+    /* ===================================== Section 2 ======================================= */
+    #Section2Contaner{
+        direction: rtl;
+        margin-top: 100px;
+    }
+#IdSection2H2{
+    font-family: 'Cairo', sans-serif;
+    font-size: x-larger;
+}
+#IdSection2DivContact{
+    width: 70%;
+    margin-right: 15%;
+}
+#IdSection2SendButton{
+    font-family: 'Cairo', sans-serif;
+    font-weight: bolder;
+    border-radius: 15px;
+     margin-left: 250px;
+}
+#IdSection2SendButton:hover{
+    /* color: #1C2331; */
+    background-color: #ec093a!important;
+    width: 120px!important;
+    height: 50px;
+}
+.ClassSection2label{    
+    /* padding-left: 560px; */
+        font-family: 'Cairo', 
+     sans-serif; font-size: 
+     small!important;}
+.ClassSection2label1{ 
+     /* padding-left: 530px;  */
+      font-family: 'Cairo',
+       sans-serif; font-size:
+        small!important;}
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@ Section 2 Media @@@@@@@@@@@@@@@@@@@@@@@@ */
+/* @media only screen and (max-width:1875px) {
+    .ClassSection2label{    padding-left: 530px;}
+    .ClassSection2label1{    padding-left: 500px;  }
+}
+@media only screen and (max-width:1782px) {
+    .ClassSection2label{    padding-left: 480px;}
+    .ClassSection2label1{    padding-left: 450px;  }
+}
+@media only screen and (max-width:1639px) {
+    .ClassSection2label{    padding-left: 420px;}
+    .ClassSection2label1{    padding-left: 400px;  }
+} */
+@media only screen and (max-width:1496px) {
+    #Section2Contaner{margin-top: 130px;}
+    /* .ClassSection2label{    padding-left: 220px;}
+    .ClassSection2label1{    padding-left: 200px;  } */
+    #IdSection2SendButton{      margin-left: 200px;}
+}
+@media only screen and (max-width:1150px) {
+    #Section2Contaner{margin-top: 150px!important;}
+    /* .ClassSection2label{    padding-left: 150px;}
+    .ClassSection2label1{    padding-left: 130px;  } */
+    #IdSection2SendButton{      margin-left: 130px;}
+}
+@media only screen and (max-width:767px) {
+    #Section2Contaner{margin-top:  0px!important;}
+    /* .ClassSection2label{    padding-left: 240px;}
+    .ClassSection2label1{    padding-left: 220px;  } */
+    #IdSection2SendButton{      margin-left: 0px;}
+}

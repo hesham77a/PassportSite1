@@ -1,0 +1,77 @@
+/* =====================   Header   ======================== */
+#IdHeader{    max-height: 150px;}
+/* =====================   section 1  Start   ======================== */
+#IdSection1{
+    margin: 30px!important;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+#IdSectio1CardDeck{
+    max-width: 1300px;
+}
+.ClassTotalH5{
+    font-family: 'El Messiri', sans-serif; 
+
+}
+.ClassTotalP {
+    font-family: 'El Messiri', sans-serif!important;
+    font-size: small;
+    text-align: right;
+    direction: rtl;
+    text-align: justify;
+    text-indent:20px;
+}
+#IdSection2 li ,#IdSection3 li{
+    font-family: 'El Messiri', sans-serif!important;
+    font-size: small;
+    text-align: right;
+    direction: rtl;
+   line-height: 25px;
+}
+.ClassTotalUpdateText{
+    font-family: 'El Messiri', sans-serif; 
+    font-size: x-small;
+    text-align: left;
+}
+/* =====================   section 1  End   ======================== */
+/* =====================   section 2  Start   ======================== */
+#IdSection2{
+    margin: 30px!important;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+#IdSectio2CardDeck{
+    max-width: 1300px;
+}
+/* =====================   section 2  End   ======================== */
+/* =====================   section 3  Start   ======================== */
+#IdSection3{
+    margin: 30px!important;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+#IdSectio3CardDeck{
+    max-width: 1300px;
+}
+/* =====================   section 3  End   ======================== */
+@media only screen and (max-width: 1000px) {
+    .ClassTotalH5{
+        font-size: small!important;
+    
+    }
+    .ClassTotalP {         font-size: x-small!important;
+    }
+    
+    #IdSection2 li ,#IdSection3 li{
+               font-size: x-small!important;
+        /* text-align: right; */
+        /* direction: rtl; */
+       line-height: 20px;
+    }
+    .ClassTotalUpdateText{
+        font-size:  x-small!important;
+    }
+}
